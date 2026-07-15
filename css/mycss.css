@@ -1,0 +1,729 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	}
+
+.all{
+	margin:0 auto;
+	width:1260px;
+	height:auto;	
+	}
+.header{
+	width:100%;
+	height:400px;
+	background-color:#FFF;	
+	}	
+.menu{
+	width:100%;
+	height:50px;
+	background-color:#FFC;
+	padding:0px;
+	}
+.content{
+	width:100%;
+	height:auto;
+	background-color:#EFD9A7
+	line-height:2em;
+	padding:120px;
+	padding-top:90px;
+	padding-bottom:80px;
+	}
+*/
+.body{
+	background-image: url(../image/back.png);
+	background-attachment: fixed;
+  
+  background-repeat: no-repeat;
+	
+  background-color: #f0f0db;
+}
+.footer{
+	width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+.footer p {
+    font-size: 16px;
+    font-family: "微軟正黑體";
+    margin: 0;
+    padding: 5px 0;
+    text-align: center;
+}
+
+/*index*/
+/*首頁背景滾動*/
+.parallax {
+  /* 使用的圖像 */
+  background-image: url(../image/xx23.png);
+ 
+
+  /* 設定特定高度 */
+  min-height: 750px; 
+  min-width: 1920px;
+
+  /* 創建視差滾動效果 */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  /* 使用的圖像 */
+  background-image: url("../image/a.jpg");
+  
+  /* 設定特定高度 */
+  min-height: 750px; 
+  min-width: 1920px;
+
+  /* 創建視差滾動效果 */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3 {
+  /* 使用的圖像 */
+ background-image: url("../image/b.jpg");
+ background-position:10% 20%;
+
+  /* 設定特定高度 */
+  min-height: 750px; 
+  min-width: 1920px;
+
+  /* 創建視差滾動效果 */
+  background-attachment: fixed;
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax4 {
+  /* 使用的圖像 */
+  background-image: url("../image/c.png");
+  background-position: 50% 10%;
+
+  /* 設定特定高度 */
+  min-height: 750px; 
+  min-width: 1920px;
+
+  /* 創建視差滾動效果 */
+  background-attachment: fixed;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax5 {
+  /* 使用的圖像 */
+  background-image: url("../image/dd.jpg");
+  background-position: 50% 80%;
+
+  /* 設定特定高度 */
+  min-height: 750px; 
+  min-width: 1920px;
+
+  /* 創建視差滾動效果 */
+  background-attachment: fixed;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax6 {
+  /* 使用的圖像 */
+  background-image: url("../image/e.jpg");
+ 
+
+  /* 設定特定高度 */
+  min-height: 750px; 
+  min-width: 1920px;
+
+  /* 創建視差滾動效果 */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax7 {
+  /* 使用的圖像 */
+  background-image: url("../image/f.jpg");
+  background-position: 50% 90%;
+
+  /* 設定特定高度 */
+  min-height: 750px; 
+  min-width: 1920px;
+
+  /* 創建視差滾動效果 */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* 將文字放在頁面/圖像的中間 */
+.bg-text {
+  background-color: rgb(0,0,0); /* 後備顏色 */
+  background-color: rgba(0,0,0, 0.4); /* 黑色，不透明/透明 */
+  color: white;
+  font-weight: bold;
+  /*border: 3px solid #f1f1f1;*/
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 10px;
+  font-family: "標楷體";
+}
+
+.bg-text button{
+	  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+.bg-text button:hover {
+  background-color:rgba(0,0,0, 0.4);
+  color: white;
+}
+/*下面的5塊*/
+.h{
+	  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+.h:hover {
+  background-color:rgba(0,0,0, 0.4);
+  color: white;
+}
+ 
+/*未移過模糊*/
+.m{
+	
+    filter:brightness(.7);
+}
+/*移過浮凸*/
+.m:hover{
+	border-style: outset;
+	border-width: 7px;
+	filter: none;
+	
+}
+
+.i{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+/*選單*/
+.mm1  {
+	height:165px;
+	display:none;
+}
+.m1:hover .mm1{
+	display: block;
+	
+	
+}
+
+.mu1:hover{
+	border-top-style:solid;
+	border-width:2px;
+	color: #fff;
+}
+
+/*首頁簡介字*/
+.ih2{
+	background-color:rgba(0,0,0, 0.3);
+	border-radius:10px;
+	padding: 20px 40px;
+	
+}
+
+
+/*字*/
+.t1{
+   font-family: "微軟正黑體";
+    font-size: 20px;
+    line-height: 1.5em;
+    
+}
+
+.t2{
+	height: 80px;
+	line-height:30px;
+	font-size: 18px;
+	background-color:#C76A6C;
+	color: #fff
+}
+
+
+.imgi2:hover{
+	transform: scale(1.1,1.1);
+	transition: all 1s ease-out;
+}
+
+
+
+
+
+.img1{
+	font-size:  50px;
+	font-family:"標楷體";
+	margin: 50px auto;
+	
+}
+
+.img2 {
+  animation: shake 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(0px,0px) rotate(5deg); }
+  10% { transform: translate(0px, 0px) rotate(-5deg); }
+  20% { transform: translate(0px, 0px) rotate(5deg); }
+  30% { transform: translate(0px, 0px) rotate(-5deg); }
+  40% { transform: translate(0px, 0px) rotate(5deg); }
+  50% { transform: translate(0px, 0px) rotate(-5deg); }
+  60% { transform: translate(0px, 0px) rotate(5deg); }
+  70% { transform: translate(0px, 0px) rotate(-5deg); }
+  80% { transform: translate(0px, 0px) rotate(5deg); }
+  90% { transform: translate(0px, 0px) rotate(-5deg); }
+  100% { transform: translate(0px, 0px) rotate(5deg); }
+  
+}
+
+
+
+
+.i5p{
+	 background-color: rgba(0,0,0, 0.3);
+	 position: absolute;
+	 left: 100px;
+	 right:0px;
+	 bottom:20px;
+	 color:#fff;
+	 font-size: 20px;
+	 padding: 10px 20px;
+}
+
+
+
+	
+
+.id61p{
+  font-family: "微軟正黑體";
+  font-size: 20px;
+  text-indent: 2em;
+  text-align: justify;
+  line-height: 2em;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+
+}
+
+
+
+
+
+/*採訪照片*/
+.id62{
+	padding: 60px;
+}
+.id6imgr{
+   margin-right: 35px;
+}
+
+.id6imgb{
+	margin-bottom: 40px;
+}
+
+.id6imga:hover{
+	transform: scale(1.1,1.1);
+	transition: all 1s ease-out;
+}
+.id6p{
+	font-family: "微軟正黑體";
+	font-size: 18px;
+}
+
+
+/*照片半透明*/
+.boxx{
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+.boxx:hover .imgp{
+
+ bottom:0px;
+}
+
+.imgp{
+	transition: all 1s ;
+	background-color: rgba(0,0,0, 0.4); /* 黑色，不透明/透明 */
+	position: absolute;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	width: 300px;
+	bottom:-50px;
+}
+
+
+
+
+/*QA*/
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;/*滑鼠移標*/
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-out;
+}
+.id6qa{
+	font-family: '標楷體';
+	font-size: 1.5em;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+.id6qap{
+	letter-spacing: 3px;
+    font-family: "微軟正黑體";
+    font-size: 20px;
+	margin-top: 10px;
+}
+
+
+
+/*index8*/
+.t8{
+    color: #000;
+	font-family: "微軟正黑體" ;
+    font-weight: bolder;
+	font-size: 20px;
+    
+	
+}
+.t8 p{
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	margin-top: 20px;
+}
+.t83{
+	color: #000;
+    font-weight: bold;
+    font-family: "標楷體";
+    font-size: 26px;
+	
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	margin-top: 20px;
+}
+.t83p{
+	color: #000;
+    font-size: 20px;
+	font-family: "微軟正黑體";
+	line-height: 2em;
+	text-indent: 2em;
+}
+.t83tb{
+	font-family: "微軟正黑體";
+    font-size: 18px;
+    width: 100%;
+}
+
+
+
+.p1{
+	text-indent: 40px;
+	
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	margin-top: 20px;
+	
+	
+	font-size: 20px;
+	font-family: "微軟正黑體" ;
+}
+
+
+
+
+
+
+.id7img{
+	width:  250px;
+	margin: 20px 30px;
+	box-shadow: 3px 3px 15px #000;
+	transition: all 2s ;
+	
+}
+.id7img:hover{
+	width: 300px;
+}
+
+/*
+.id7img {
+	box-shadow: 3px 3px 15px #000;
+	border-radius: 0px;
+	
+	transform: scale(1,1);
+	transition: all .5s ease-out;
+}
+
+.id7img:hover {
+	transform: scale(1.2,1.2);
+}
+*/
+
+
+
+
+.id7h1{
+	font-family: '標楷體';
+	font-size: 2em;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+.id7p{
+	text-indent: 40px;
+    font-family: "微軟正黑體";
+    font-size: 18px;
+    text-align: justify;
+	letter-spacing: 3px;
+	
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	margin-top: 20px;
+}
+
+
+
+.f1{
+	height: 100px;
+	line-height: 40px;
+	background-color:#c65353;
+	color: #fff;
+	margin-top: 150px;
+}
+
+
+
+.bg {
+    background: #000 url(../image/id88.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	filter: blur(3px);
+}
+
+
+.target {
+    padding-top: 200px;
+    margin-top: -200px;
+}
+
+
+
+
+
+.iimg{
+	border-width:10px;
+	border-style:solid;
+	border-color:#FFF;
+	order-color:#ccc;
+	
+	box-shadow:3px 3px 10px #ccc; 
+	
+}
+
+
+.in7{
+	font-size: 34px;
+	font-family: "微軟正黑體";
+	
+}
+
+
+
+
+/*時間軸*/
+/* 實際時間軸（垂直標尺） */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 實際時間軸（垂直標尺） */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #DADADA;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* 內容容器 */
+.container1 {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+  text-align: justify;
+}
+
+/* 時間線上的圓圈 */
+.container1::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -12px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 20px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* 將容器放在左側 */
+.left1 {
+  left: 0;
+}
+
+/* 將容器放在右側 */
+.right1 {
+  left: 50%;
+}
+
+/* 在左側容器中添加箭頭（指向右側） */
+.left1::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: 3px solid #DADADA;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent  #DADADA;
+}
+
+/* 在左側容器中添加箭頭（指向左側） */
+.right1::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: 3px solid  #DADADA;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent  #DADADA transparent transparent;
+}
+
+/* 將容器的圓圈固定在右側 */
+.right1::after {
+  left: -12px;
+}
+
+/* 實際內容 */
+.content1 {
+  padding: 1px 30px;
+  background-color: #f0f0db;
+  position: relative;
+  border-radius: 6px;
+  border: #DADADA 5px solid;
+}
+
+/* 媒體查詢-屏幕寬度小於600像素的響應時間軸 */
+@media screen and (max-width: 600px) {
+  /* 將時間戳記向左放置 */
+  .timeline::after {
+  left: 28px;
+  }
+  
+  /* 全寬容器 */
+  .container1 {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* 確保所有箭頭都指向左 */
+  .container1::before {
+  left: 60px;
+  border: 3px solid  #DADADA;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent  #f0f0db transparent transparent;
+  }
+
+  /* 確保所有圈子都在同一地點 */
+  .left1::after, .right1::after {
+  left: 15px;
+  }
+  
+  /* 使所有正確的容器表現得像左側的容器一樣 */
+  .right1 {
+  left: 0%;
+  }
