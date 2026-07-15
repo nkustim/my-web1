@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+.navbg{
+	background-color: rgba(230,0,18,0.8);
+	transition: all 1s;
+}
+
+.bg{
+	background-image: url(../imges/bg.png);
+	background-repeat: repeat-x;
+	background-size: contain;
+	
+	height: 650px;
+	
+	position: relative;
+}
+
+.bg1{
+	background-image: url(../imges/bg1.png);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	height: 300px;
+}
+
+.mt150{
+	margin-top: 150px;
+}
+.mb150{
+	margin-bottom: 150px;
+}
+
+.myh1{
+	border-left:5px solid #FABE00;
+	padding-left:10px;
+	color: #FF0004;
+}
+.myp1{
+	margin-top: 40px;
+	
+	font-size: 18px;
+	line-height: 2em;
+	
+	text-indent: 2em;
+}
+
+
+.aimg{
+	transform: scale(1);
+	transition: all 1s;
+	
+	position: relative;
+}
+.aimg:hover{
+	transform: scale(1.05);
+	transition: all 1s;
+}
+
+.bimg{
+	border-radius: 50%;
+	border:2px solid red;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+.bimg:hover{
+	border-radius: 50%;
+	border:3px solid red;
+
+	box-shadow: 0px 0px 10px black;
+	transition: all 0.3s;
+}
+
+.bs1{
+	width: 95%;
+	transition: all 1s;
+}
+.bs2{
+	width: 90%;
+	transition: all 1s;
+}
+.bs3{
+	width: 95%;
+	transition: all 1s;
+}
+
+.cbox1{
+	
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.cimg{
+	transform: scale(1,1);
+	transition: all 1s;
+}
+.cbox1:hover .cimg{
+	transform: scale(1.05,1.05);
+	transition: all 1s;
+}
+.navaa:hover{
+	border-bottom: 3px solid #fff;
+	transition: all 0.4s;
+}
+.dbox{
+	opacity: 1;
+	transition: all 0.4s;
+	cursor: pointer;
+}
+
+.dbox:hover{
+	opacity: 0.7;
+	transition: all 0.4s;
+}
+
+.ddd{
+	transform: translateX(0);
+	animation-name: ddd;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+	transition: all 1s;
+}
+@keyframes ddd{
+	0%{transform: translateX(0)}
+	100%{transform: translateX(-100%)}
+}
+
+
+
+
+
+
+.logo{
+	position: absolute;top: 14%;left: 10%;width: 76%;transition: all 1s;
+}
+@media (min-width: 768px) {
+ .logo{
+	position: absolute;top: 8%;left: 14%;width: 64%;transition: all 1s;
+}
+}
+@media (min-width: 992px) {
+ .logo{
+	position: absolute;top: 8%;left: 30%;width: 50%;transition: all 1s;
+}
+}
+@media (min-width: 1200px) {
+  .logo{
+	position: absolute;top: 8%;left: 36%;width: 30%;transition: all 1s;
+}
+}
