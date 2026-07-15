@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>親臨探訪</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+	  
+	<!--選單-->
+	  <link rel="stylesheet" href="css/css2.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, html {
+  height: auto;
+  line-height: 1.8;
+}	
+.w3-bar .w3-button {
+  padding: 18px;
+}
+	
+/* 設置標籤樣式 */
+.tab {
+  overflow: hidden;
+  border: 1px solid #000;
+  background-color: #f1f1f1;
+}
+
+/* 設置標籤內按鈕的樣式*/
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 22px;
+  font-family: "標楷體";
+}
+
+/* 更改懸停按鈕的背景顏色 */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* 創建一個活動/當前的tablink類 */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* 設置標籤內容的樣式 */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #000;
+  border-top: none;
+}
+
+	p{
+  font-family: "微軟正黑體";
+  font-size: 20px;
+  text-indent: 2em;
+  text-align: justify;
+  line-height: 2em;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+	}
+	
+	
+</style>
+  <!--選單完-->	  
+	  <!--mycss-->
+	  <link rel="stylesheet" href="css/mycss.css">
+	  
+	  
+  </head>
+  <body class="body"> 
+	  
+	  
+	<!--選單-->
+	  <!-- 導航欄（位於頂部） -->
+	  
+      <div class="w3-top" style="z-index: 3" >
+      <div class="w3-bar w3-white w3-card" id="myNavbar"  style="font-size: 22px; font-family: '標楷體';">
+      <a href="index.htm" class="w3-bar-item w3-wide " style="padding-top:15px"> <img src="image/logo.png" alt="">  </a>
+     <!-- 右側導航欄鏈接-->
+     <div class="w3-right w3-hide-small ">
+		 
+		 
+		 <div class="w3-dropdown-hover">
+       <a href="index2.html"><button class="w3-button " style="background-color:#CC6666;color: #fff">廟宇漫談 </button></a>
+       <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="index2.html#i21" class="w3-bar-item w3-button">生活起點</a>
+        <a href="index2.html#i22" class="w3-bar-item w3-button">信仰足跡</a>
+        <a href="index2.html#i23" class="w3-bar-item w3-button">寺廟工藝</a>
+		<a href="index2.html#i24" class="w3-bar-item w3-button">信仰之美</a>
+       </div>
+       </div>
+		 
+		 
+		 
+		 
+		<div class="w3-dropdown-hover">
+       <a href="index3.html"><button class="w3-button ">旗廟特色 </button></a>
+       <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="index3.html#i31" class="w3-bar-item w3-button">脈絡循序</a>
+        <a href="index3.html#i32" class="w3-bar-item w3-button">鬼斧神工</a>
+        <a href="index3.html#i33" class="w3-bar-item w3-button">輾轉更迭</a>
+       </div>
+       </div>
+		
+		 <div class="w3-dropdown-hover">
+       <a href="index4.html"><button class="w3-button ">聖賢細講</button></a>
+       <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="index4.html#i41" class="w3-bar-item w3-button">天上聖母</a>
+        <a href="index4.html#i42" class="w3-bar-item w3-button">境主公</a>
+        <a href="index4.html#i43" class="w3-bar-item w3-button">金虎將軍</a>
+		<a href="index4.html#i44" class="w3-bar-item w3-button">田都元帥</a>
+		 
+       </div>
+       </div>
+      
+       <div class="w3-dropdown-hover">
+       <a href="index5.html"><button class="w3-button ">旗特美食</button></a>
+       <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="index5.html#i51" class="w3-bar-item w3-button">吉美麵包</a>
+        <a href="index5.html#i52" class="w3-bar-item w3-button">吳記肉丸</a>
+        <a href="index5.html#i53" class="w3-bar-item w3-button">許家豆花</a>
+		<a href="index5.html#i54" class="w3-bar-item w3-button">吳師傅滷味</a>
+		<a href="index5.html#i55" class="w3-bar-item w3-button">榮記肉圓</a>
+       </div>
+       </div>
+     
+      
+	    <div class="w3-dropdown-hover">
+	   <a href="index6.html"><button class="w3-button " style="color:#732626;background-color:#fff2cc;font-weight: bold">親臨探訪</button></a>
+       <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="index6.html#i61" class="w3-bar-item w3-button">探訪規劃</a>
+        <a href="index6.html#i62" class="w3-bar-item w3-button">探訪實錄</a>
+        <a href="index6.html#i63" class="w3-bar-item w3-button">探訪Q&A</a>
+       </div>
+       </div>
+		 
+		 <div class="w3-dropdown-hover">
+	   <a href="index7.html"><button class="w3-button " >製作團隊</button></a>
+       <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="index7.html#i71" class="w3-bar-item w3-button">組員介紹</a>
+        <a href="index7.html#i72" class="w3-bar-item w3-button">參考資料</a>
+      
+       </div>
+       </div>
+		 
+		 
+		 
+     
+	  <a href="narrative.htm" class="w3-bar-item w3-button" style="padding-right: 25px">專題簡報頁</a>
+		 
+    </div>
+		  
+		  
+    <!-- 在小屏幕上隱藏右上角的鏈接，並將其替換為菜單圖標 --><a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onClick="w3_open()"> <em class="fa fa-bars"></em> </a></div>
+</div>
+
+
+<!-- 單擊菜單圖標時，小屏幕上的側欄 -->	  
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none;margin-top:75px;z-index:3;font-family: '標楷體';font-size: 22px" id="mySidebar">	
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16" >關閉</a>
+	
+		<div class="w3-dropdown-hover m1 mu1">
+      <a href="index2.html"><button class="w3-button " >廟宇漫談</button></a>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4" >
+        <a href="index2.html#i21" class="w3-bar-item w3-button">生活起點</a>
+        <a href="index2.html#i22" class="w3-bar-item w3-button">信仰足跡</a>
+        <a href="index2.html#i23" class="w3-bar-item w3-button">寺廟工藝</a>
+		<a href="index2.html#i24" class="w3-bar-item w3-button">信仰之美</a>
+      </div>
+		 <p  class="mm1" style="height: 180px"></p>
+      </div>
+	
+	
+	 <div class="w3-dropdown-hover m1 mu1">
+      <a href="index3.html"><button class="w3-button " >旗廟特色</button></a>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4" >
+        <a href="index3.html#i31" class="w3-bar-item w3-button">脈絡循序</a>
+        <a href="index3.html#i32" class="w3-bar-item w3-button">鬼斧神工</a>
+        <a href="index3.html#i33" class="w3-bar-item w3-button">輾轉更迭</a>
+      </div>
+		 <p  class="mm1" style="height:135px;"></p>
+      </div>
+	
+     <div class="w3-dropdown-hover m1 mu1">
+      <a href="index4.html"><button class="w3-button " >聖賢系講</button></a>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4" >
+        <a href="index4.html#i41" class="w3-bar-item w3-button">天上聖母</a>
+        <a href="index4.html#i42" class="w3-bar-item w3-button">境主公</a>
+        <a href="index4.html#i43" class="w3-bar-item w3-button">金虎將軍</a>
+		<a href="index4.html#i44" class="w3-bar-item w3-button">田都元帥</a>
+      </div>
+		 <p  class="mm1" style="height: 180px"></p>
+      </div>
+	 
+	
+	 <div class="w3-dropdown-hover m1 mu1">
+      <a href="index5.html"><button class="w3-button " >旗特美食</button></a>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4" >
+       <a href="index5.html#i51" class="w3-bar-item w3-button">吉美麵包</a>
+        <a href="index5.html#i52" class="w3-bar-item w3-button">吳記肉丸</a>
+        <a href="index5.html#i53" class="w3-bar-item w3-button">許家豆花</a>
+		<a href="index5.html#i54" class="w3-bar-item w3-button">吳師傅滷味</a>
+		<a href="index5.html#i55" class="w3-bar-item w3-button">榮記肉圓</a>
+      </div>
+		 <p class="mm1" style="height: 235px"></p>
+      </div>
+	
+	
+	<div class="w3-dropdown-hover m1 mu1">
+     <a href="index6.html"> <button class="w3-button " style="color:#732626;background-color:#fff2cc;font-weight: bold">親臨探訪</button></a>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4" >
+        <a href="index6.html#i61" class="w3-bar-item w3-button">探訪規劃</a>
+        <a href="index6.html#i62" class="w3-bar-item w3-button">探訪實錄</a>
+        <a href="index6.html#i63" class="w3-bar-item w3-button">探訪Q&A</a>
+      </div>
+		 <p class="mm1" style="height:135px;"></p>
+      </div>
+	
+	<div class="w3-dropdown-hover m1 mu1">
+     <a href="index7.html"> <button class="w3-button " >製作團隊</button></a>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4" >
+        <a href="index7.html#i71" class="w3-bar-item w3-button">組員介紹</a>
+        <a href="index7.html#i72" class="w3-bar-item w3-button">參考資料</a>
+      </div>
+		 <p class="mm1" style="height: 70px"></p>
+      </div>
+	
+  
+
+  <a href="narrative.htm" onclick="w3_close()" class="w3-bar-item w3-button">專題簡報頁</a>
+	
+</nav>
+	 <!--選單完-->
+	  
+	  <div class="parallax6"></div>
+	  
+	  <div class="bg-text" >
+		   <h1 style="font-size:70px;line-height:100px;">親臨探訪</h1>
+ 
+      </div>
+	  
+	  <a name="i61"></a>
+	  
+	  <div class="container" style="margin-top: 100px">
+	  
+	  <p class="img1">採訪規劃</p>
+	  
+	  <p class="id61p" style="text-indent: 0em;"> 
+	  
+	  <img src="image/imgi61.JPG" alt="" width="500" style="float: left;margin-top: 10px;margin-right: 50px" class="iimg">
+	  <br>
+	  <strong >日期：</strong>2020/1/23(四)<br>
+	  <strong>時間：</strong>早上9點～下午6點30分<br>
+	  <strong>交通方式：</strong>捷運＋客運+走路<br>
+	  <strong>小插曲：</strong>突然有組員提議搭計程車，馬上招開緊急討論會議，於是先派組員去詢問計程車車價，並多位比較，有組員同時提議找認識的計程車叔叔來接送，大家都覺得是很不錯的建議，於是立刻接洽。後來決定搭乘組員所介紹的那位叔叔計程車的車前往。因為考量到車程所花費的時間，希望可以盡快到達目的地，一次就順利完成採訪活動。<br><br>
+	  <strong>採訪摘錄：</strong>2020/1/23(四) 早上9點捷運左營高鐵站1號出口集合搭9點10分的E01A(往旗山轉運站)到旗山轉運站(842高雄市旗山區大同街23號)，往西走大同街朝至誠巷前進，於延平一路向右轉，於永安街向左轉就到達旗山天后宮了。</p>
+	 
+     
+	  
+	  
+	  
+	  
+	  </div>
+	  
+	  
+	  
+	  
+	  
+	  
+	  <a name="i62"></a>
+	  <!--照片-->
+	  <div class="container" style="box-sizing: border-box;margin-top: 150px;margin-bottom: 200px">
+		 
+		<p class="img1">探訪實錄</p>
+		    
+	  <div class="tab" style="font-size: 50px">
+  		<button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">廟裡廟外</button>
+  		<button class="tablinks" onclick="openCity(event, 'Paris')">吃喝玩樂</button>
+  		<button class="tablinks" onclick="openCity(event, 'Tokyo')">熱情的講解</button>
+	  </div>
+
+	  <div id="London" class="tabcontent id62 " style="padding-right: 30px" >
+ 	    
+		  <p style="font-family:'微軟正黑體';font-size: 25px ">巧奪天工的建築有著不同的含意；廟宇裡的神明庇佑著信仰之徒</p>
+		 
+		  
+		  <div><img src="imageb/a/aa0.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/a/aa1.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			 
+			   <img src="imageb/a/aa2.jpg" width="300px" height="300px" alt="" class="id6imgb id6imga" >
+		      
+		  </div>
+		  
+		       
+		  <div><img src="imageb/a/aa3.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+		
+			   <img src="imageb/a/aa4.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/a/aa5.jpg" width="300px" height="300px" alt="" class="id6imgb id6imga" >
+		      
+		  </div>
+		  
+		  <div><img src="imageb/a/aa6.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/a/aa7.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			
+			   <img src="imageb/a/aa9.jpg" width="300px" height="300px" alt="" class="id6imgb id6imga" >
+		    
+		  </div>
+		  
+		  <div><img src="imageb/a/aa10.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+		
+			   <img src="imageb/a/aa11.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/a/aa12.jpg" width="300px" height="300px" alt="" class="id6imgb id6imga" >
+		  
+		  </div>
+		  
+		  <div><img src="imageb/a/aa13.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/a/aa14.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			 
+			   <img src="imageb/a/aa15.jpg" width="300px" height="300px" alt="" class="id6imgb id6imga" >
+		     
+		  </div>
+		  
+		  <div><img src="imageb/a/aa16.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			 
+			   <img src="imageb/a/aa17.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			 
+			   <img src="imageb/a/aa18.jpg" width="300px" height="300px" alt="" class="id6imgb id6imga" >
+		    
+		  </div>
+		  
+		  <div><img src="imageb/a/aa19.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/a/aa20.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			
+			   <img src="imageb/a/aa21.jpg" width="300px" height="300px" alt="" class="id6imgb id6imga" >
+		     
+		  </div>
+		  
+	  </div>
+
+	  <div id="Paris" class="tabcontent id62" style="padding-right: 30px">
+  		
+		  <p style="font-family:'微軟正黑體';font-size: 25px ">無遠弗屆的美食天堂，使我們置身於幸福之中</p>
+		  
+		  <div><img src="imageb/b/bb1.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+	
+			   <img src="imageb/b/bb2.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/b/bb3.jpg" width="300px" height="300px" alt="" class="id6imgb id6imga" >
+		     
+		  </div>
+		  
+		       
+		  <div><img src="imageb/b/bb4.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/b/bb5.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+		
+			   <img src="imageb/b/bb6.jpg" width="300px" height="300px" alt="" class="id6imgb id6imga" >
+		     
+		  </div>
+		  
+		  <div><img src="imageb/b/bb7.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/b/bb8.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/b/bb19.jpg" width="300px" height="300px" alt="" class="id6imgb id6imga" >
+		
+		  </div>
+		  
+		  <div><img src="imageb/b/bb9.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/b/bb10.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			 
+			   <img src="imageb/b/bb11.jpg" width="300px" height="300px" alt="" class="id6imgb id6imga" >
+		      
+		  </div>
+		  
+		  <div><img src="imageb/b/bb12.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			
+			   <img src="imageb/b/bb13.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/b/bb14.jpg" width="300px" height="300px" alt="" class="id6imgb id6imga" >
+		     
+		  </div>
+		  
+		  <div><img src="imageb/b/bb15.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/b/bb16.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+		
+			   <img src="imageb/b/bb17.jpg" width="300px" height="300px" alt="" class="id6imgb id6imga" >
+		      
+		  </div>
+		  
+		  
+		  
+	  </div>
+
+	 <div id="Tokyo" class="tabcontent id62" style="padding-right: 30px">
+		 
+		 <p style="font-family:'微軟正黑體';font-size: 25px ">娓娓道盡古來千百年歷史，長存於心歷久不衰</p>
+		 
+ 		  <div><img src="imageb/c/cc1.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			
+			   <img src="imageb/c/cc2.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/c/cc3.jpg" width="300px" height="300px" alt="" class="id6imgb id6imga" >
+		      
+		  </div>
+  		
+		  <div><img src="imageb/c/cc4.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/c/cc5.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			 
+			   <img src="imageb/c/cc6.jpg" width="300px" height="300px" alt="" class="id6imgb id6imga" >
+		      
+		  </div>
+		  
+		       
+		  <div><img src="imageb/c/cc7.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/c/cc8.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/c/cc9.jpg" width="300px" height="300px" alt="" class="id6imgb id6imga" >
+		      
+		  </div>
+		  
+		  <div><img src="imageb/c/cc10.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			 
+			   <img src="imageb/c/cc11.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/c/cc12.jpg" width="300px" height="300px" alt="" class="id6imgb id6imga" >
+		    
+		  </div>
+		  
+		  <div><img src="imageb/c/cc13.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/c/cc14.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/c/cc15.jpg" width="300px" height="300px" alt="" class="id6imgb id6imga" >
+		       
+		  </div>
+		  
+		  <div><img src="imageb/c/cc16.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			 
+			   <img src="imageb/c/cc17.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/c/cc18.jpg" width="300px" height="300px" alt="" class="id6imgb id6imga" >
+		     
+		  </div>
+		  
+		  <div><img src="imageb/c/cc19.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/c/cc20.jpg" width="300px" height="300px" alt="" class="id6imgr id6imgb id6imga">
+			  
+			   <img src="imageb/c/cc21.jpg" width="300px" height="300px" alt="" class="id6imgb id6imga" >
+		      
+		  </div>
+		 
+		 
+	  </div>
+
+	  </div> 
+	  
+	  
+	  
+	
+	   <!--QA-->
+	  <a name="i63" style="margin-bottom: -200px"></a>
+	  
+    <div class="container" style="margin-top: 300px"> 
+	 
+    
+		
+		
+		
+		<p class="img1">探訪Q&A</p>
+    
+		<div class="row" style="margin-bottom: 100px">
+			
+		<div class="col-xs-12 col-md-6"><iframe width="100%" height="400" src="https://www.youtube.com/embed/oLlc-cVLMvk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+			
+		<div class="col-xs-12 col-md-6"><iframe width="100%" height="400" src="https://www.youtube.com/embed/YT1Fr3cGidA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+		
+		</div>
+		
+		
+<button class="accordion id6qa" >1.廟公是代代相傳嗎？</button>
+<div class="panel ">
+  <p class="id6qap">不是，根據廟公所說是自然而然的媽祖就會找到當廟公的人。</p>
+</div>
+<button class="accordion id6qa">2.為什麼都會需要送神？</button>
+<div class="panel ">
+  <p class="id6qap">因為這些神明要把你那一年的好壞回去稟告給天庭，來年好與不好就可能是看你這年有沒有做善事與壞事。</p>
+</div>
+
+<button class="accordion id6qa">3.女生月事來可以進廟嗎？</button>
+<div class="panel">
+  <p class="id6qap">可以，只要神明是女的就可以進廟，例如媽祖、王母娘娘….等。</p>
+</div>
+ 
+ <button class="accordion id6qa">4.抽籤詩怎麼抽？</button>
+<div class="panel">
+	<p class="id6qap" style="text-indent: 0px"><strong >第一步：</strong>點香跟神明稟告你的姓名、出生年月日（農曆獲國歷要先說清楚）、住址，和心中所要問的事情，要清楚描述問題，並設定選項。 <br>
+					  <strong>第二步：</strong>等待三分之二炷香或者一炷香的時間，能讓神明徹底調查一下問題的原委。                                         <br>
+  				      <strong>第三步：</strong>一定要先問過神明是否賜籤才抽，否則得出來的答案容易不準：問神明是否要賜籤回答的同時，亦可決定好「抽籤配對」，若神明以三個聖筊回覆，才能抽籤詩。<br>
+				      <strong>第四步：</strong>抽完第一支籤後，要向神明確認是否是這支籤（記得一定要連續三個聖筊才可以）。</p>
+				      
+</div>
+ 
+ <button class="accordion id6qa">5.這間廟的特色?</button>
+<div class="panel">
+  <p class="id6qap">是建於乾隆44年、嘉慶20年，一直到道光2年才建好，是經過3個皇帝。這個地的取得(不易)，以前這邊都是香蕉園，地土上的關係，因為有時候會稍微會有一點要與不要、願不願意，把這個地捐出來，他是慢慢的，地主慢慢地捐出來，才完成這個廟。</p>
+</div>
+ 
+ <button class="accordion id6qa">6.這間廟是什麼建築?</button>
+<div class="panel">
+  <p class="id6qap">閩式建築，是山窗門，再加左右相環兩個，就變成五門。一般的話，我們就是以山窗的門來算，如果加左右相環就剛好是五門。</p>
+</div>
+ 
+ <button class="accordion id6qa">7.文昌殿是求神麼的?</button>
+<div class="panel">
+  <p class="id6qap">旗山、台南、鹿港、基隆、旗津、高雄，牌子(聖諭宣講)皇帝親自頒的跟喧讀。這裡是皇帝宣讀法令的地方，外面有奉獻碑的碑文，以前蕃薯寮的羅漢腳(單身男子)，有聖諭宣講這個牌子才可以宣布朝廷裡面頒發下來的法條法令規定，宣布完，公布在媽祖廟外面的公布覽上。以前的媽祖廟可以辦私塾，因為有牌子(聖諭宣講)。</p>
+</div>
+
+<button class="accordion id6qa">8.主要祈求太歲殿的神明哪些幫助?</button>
+<div class="panel">
+  <p class="id6qap">六十甲子的太歲殿都在裡面，六十位都在裡面，上面的斗母管的，每一年有一位當值太歲值班，元宵以後會有一位太歲下來值班。犯太歲的點太歲燈，斗母會保佑你那一年平安。農曆12/24送神意思是把那一年犯太歲的，還有平安斗的、點燈的等，把它送回去，還有家裡面的灶神，到元宵節那一天點燈。</p>
+</div>
+ 
+ <button class="accordion id6qa">9.田都元帥掌管哪些方面?</button>
+<div class="panel">
+  <p class="id6qap">演藝界所有的事物都由祂來掌管。</p>
+</div>
+ 
+ <button class="accordion id6qa">10.金虎將軍是求神麼的？</button>
+<div class="panel">
+  <p class="id6qap">來求金虎將軍的基本上都是想要能夠賺多一點錢，吃的肉一定要燙過，生的不能吃(因為吃生肉，會有野性，有可能會傷人)。</p>
+</div>
+
+<button class="accordion id6qa">11.旗山天后宮的千里眼和順風耳，跟別間廟宇不一樣的特色?</button>
+<div class="panel">
+  <p class="id6qap">全台只有旗山天后宮的有戴帽子，因為家慶皇帝以前來過，民間故事有演。</p>
+</div>
+
+<button class="accordion id6qa">12.關於廟公的故事、工作?</button>
+<div class="panel">
+  <p class="id6qap">廟公是原住民，從那瑪夏搬來，到16歲進士官學校，在軍中12年，轉警察，警察第一屆第一梯次霹靂組總指教官，經歷美麗島事件，520事件，在台南服務是特種兵，就是現在的危安小組，五常街槍戰，白小燕事件，阿扁被官時回到原單位，有特殊體質比較有感應，跟媽祖有連結。廟公經歷10年。櫃台姐姐履歷放在媽祖前面拔杯，一個一個問，3個聖杯以上錄取。工作大致上是燒香奉茶、媽祖在哪廟公就在哪。座右銘:“我會相信，但我不會迷糊。”</p>
+</div>
+ 
+  <!--QA-->
+	  </div> 
+	  
+	
+
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	 <div class="card-footer w3-center t1" style="height: 100px;line-height: 40px;background-color:#c65353;color: #fff;margin-top: 200px">
+		  網頁符合自適應網站<br>2020臺灣網界博覽會｜地方歷史古蹟｜旗天大勝團隊
+	  </div>
+	  
+	  <!--照片-->
+	<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+	 
+	  
+	  
+	  <!--myjs-->
+  	<script src="js/js2.js"></script>
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.2.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.0.0.js"></script>
+  </body>
+</html>
